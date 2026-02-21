@@ -18,13 +18,15 @@
     </div>
 
     <!-- 其他單行按鈕 -->
-    <LinkButton
-      :href="link.href"
-      :icon="link.icon"
-      :label="link.label"
-      icon-class="white"
-      v-for="link in config.links.list"
-    />
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+      <LinkButton
+        :href="link.href"
+        :icon="link.icon"
+        :label="link.label"
+        icon-class="white"
+        v-for="link in config.links.list"
+      />
+    </div>
   </div>
 </template>
 

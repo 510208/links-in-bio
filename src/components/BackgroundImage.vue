@@ -3,7 +3,7 @@
     <img
       :src="bgImage"
       alt="Cover Image"
-      class="gradient-mask h-full w-full bg-top object-cover"
+      class="gradient-mask h-full w-full object-cover object-[left_10%]"
     />
   </div>
 </template>

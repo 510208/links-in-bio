@@ -41,7 +41,7 @@ watch(
 
     <AppContent>
       <Introduction />
-      <div class="w-full max-w-150">
+      <div class="w-full max-w-90 sm:max-w-150">
         <LinksSection />
       </div>
     </AppContent>

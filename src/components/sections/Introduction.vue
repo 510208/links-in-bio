@@ -7,12 +7,14 @@
       <AvatarFallback>SH</AvatarFallback>
     </Avatar>
     <h1 class="text-center text-4xl font-bold text-front-100">SamHacker</h1>
-    <div class="flex items-center gap-2.5">
+    <div class="xs:px-0 flex flex-wrap items-center gap-2.5 px-2">
       <p class="text-center text-lg text-stone-400">Student</p>
       <SeparatorDot />
       <p class="text-center text-lg text-stone-400">@510208</p>
       <SeparatorDot />
-      <p class="text-center text-lg text-stone-400">Taichung, Taiwan</p>
+      <p class="text-center text-lg text-nowrap text-stone-400">
+        Taichung, Taiwan
+      </p>
     </div>
   </div>
 </template>

@@ -6,7 +6,7 @@ import LinksSection from "@/components/sections/LinksSection.vue";
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex w-screen flex-col items-center">
     <BackgroundImage />
 
     <AppContent>

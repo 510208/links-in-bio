@@ -8,14 +8,16 @@
         :icon="DiscordIcon"
         label="@samhacker (Main)"
         target="_self"
-        icon-class="text-[#5865F2]"
+        id="sh-discord-main"
+        @click="() => copyToClipboard('samhacker')"
       />
       <LinkButton
         href="#"
         :icon="DiscordIcon"
         label="@samhacker_test (Alt)"
         target="_self"
-        icon-class="text-[#5865F2]"
+        id="sh-discord-alt"
+        @click="() => copyToClipboard('samhacker_test')"
       />
     </div>
 
@@ -37,4 +39,20 @@ import LinkButton from "@/components/ui/linkButton/LinkButton.vue";
 import config from "@shConfig";
 
 import { DiscordIcon } from "vue3-simple-icons";
+</script>
+
+<script>
+import { toast } from "vue-sonner";
+
+// 點擊Discord按鈕時複製對應的帳號到剪貼簿
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(
+    () => {
+      toast.success(`已複製 ${text} 到剪貼簿！`);
+    },
+    (err) => {
+      console.error("無法複製到剪貼簿: ", err);
+    },
+  );
+}
 </script>

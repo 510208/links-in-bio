@@ -14,7 +14,7 @@ import {
 
 import designImage1 from "@/assets/links/mega-link_bg_1.png";
 import designImage2 from "@/assets/links/mega-link_bg_2.png";
-import type { Config } from "@/types/config.d";
+import type { Config } from "./src/types/config.d";
 
 const config: Config = {
   links: {

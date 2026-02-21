@@ -3,7 +3,7 @@
     :href="href"
     target="_blank"
     rel="noopener noreferrer"
-    class="group relative flex h-[194px] flex-col items-start justify-end overflow-hidden rounded-[10px] border border-stone-700 bg-gradient-to-b from-stone-800 to-[#180d07] p-3.5 transition-transform hover:scale-[1.02]"
+    class="group relative flex h-[194px] flex-col items-start justify-end overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-[#180d07] p-3.5 transition-transform hover:scale-[1.02]"
   >
     <!-- 頁首：左側圖標和右側箭頭 -->
     <div

@@ -1,9 +1,9 @@
 <template>
   <a
     :href="href"
-    target="_blank"
+    :target="target || '_blank'"
     rel="noopener noreferrer"
-    class="group flex h-10 w-full items-center justify-between overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-[#180d07] px-3.5 py-2.5 transition-transform hover:scale-102"
+    class="group flex w-full items-center justify-between overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-front-950 px-4 py-2.5 transition-all duration-300 hover:to-front-900"
   >
     <!-- 左側圖標 -->
     <component :is="icon" class="size-5 shrink-0" :class="iconClass" />
@@ -29,6 +29,7 @@ interface Props {
   icon: Component;
   label: string;
   iconClass?: string;
+  target?: string;
 }
 
 defineProps<Props>();

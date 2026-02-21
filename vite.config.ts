@@ -12,6 +12,9 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@shConfig": fileURLToPath(
+        new URL("./shLinks.config.ts", import.meta.url),
+      ),
     },
   },
 });

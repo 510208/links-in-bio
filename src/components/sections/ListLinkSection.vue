@@ -4,7 +4,7 @@
     <!-- 第一行：兩個Discord按鈕 -->
     <div class="flex flex-col justify-between gap-4 md:flex-row">
       <LinkButton
-        href="#"
+        href="javascript:void(0)"
         :icon="DiscordIcon"
         label="@samhacker (Main)"
         target="_self"
@@ -12,7 +12,7 @@
         @click="() => copyToClipboard('samhacker')"
       />
       <LinkButton
-        href="#"
+        href="javascript:void(0)"
         :icon="DiscordIcon"
         label="@samhacker_test (Alt)"
         target="_self"

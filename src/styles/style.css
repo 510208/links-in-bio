@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
+@import "@fontsource-variable/inter";
+
 @theme {
-  --color-front-050: #f9f2ef;
+  --color-front-50: #f9f2ef;
   --color-front-100: #f2e5de;
   --color-front-200: #ead6cb;
   --color-front-300: #e2c6b6;
@@ -16,4 +18,5 @@
 
 body {
   @apply bg-linear-to-b from-stone-900 to-stone-950 bg-cover bg-fixed;
+  font-family: "InterVariable", sans-serif;
 }

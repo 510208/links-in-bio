@@ -13,7 +13,7 @@ export default defineConfig({
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
       "@shConfig": fileURLToPath(
-        new URL("./shLinks.config.ts", import.meta.url),
+        new URL("./shlinks.config.ts", import.meta.url),
       ),
     },
   },

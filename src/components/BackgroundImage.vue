@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute top-0 left-0 -z-2 h-75 w-screen opacity-40">
+  <div class="absolute top-0 left-0 -z-2 h-[300px] w-screen">
     <img
       :src="bgImage"
       alt="Cover Image"
@@ -14,7 +14,7 @@ import bgImage from "@/assets/background/background_cover.png";
 
 <style scoped>
 .gradient-mask {
-  mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
 }
 </style>

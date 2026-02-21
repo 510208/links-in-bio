@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center gap-2.5 pt-50 pb-17.5">
+  <div class="flex flex-col items-center gap-2.5">
     <Avatar class="h-25 w-25 shadow-lg">
       <AvatarImage
         src="https://gravatar.com/avatar/f7598bd8d4aba38d7219341f81a162fc842376b3b556b1995cbb97271d9e2915?size=256"

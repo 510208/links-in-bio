@@ -3,6 +3,7 @@
     :href="href"
     target="_blank"
     rel="noopener noreferrer"
+    role="button"
     class="group relative flex h-50 flex-col items-start justify-end overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-front-950 p-3.5 transition-all duration-300 hover:to-front-900"
   >
     <!-- 頁首：左側圖標和右側箭頭 -->

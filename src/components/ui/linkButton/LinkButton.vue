@@ -4,6 +4,7 @@
     :target="target || '_blank'"
     rel="noopener noreferrer"
     :id="id"
+    role="button"
     class="group flex w-full items-center justify-between overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-front-950 px-4 py-2.5 transition-all duration-300 hover:to-front-900"
   >
     <!-- 左側圖標 -->

@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="absolute top-0 left-0 -z-2 h-[300px] w-screen"
-    style="width: var(--vw)"
-  >
+  <div class="absolute top-0 left-0 -z-2 h-[300px] w-full">
     <img
       :src="bgImage"
       alt="Cover Image"

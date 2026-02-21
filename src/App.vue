@@ -2,6 +2,7 @@
 import AppContent from "@/components/AppContent.vue";
 import BackgroundImage from "@/components/BackgroundImage.vue";
 import Introduction from "@/components/sections/Introduction.vue";
+import LinksSection from "@/components/sections/LinksSection.vue";
 </script>
 
 <template>
@@ -10,6 +11,9 @@ import Introduction from "@/components/sections/Introduction.vue";
 
     <AppContent>
       <Introduction />
+      <div class="w-full max-w-150">
+        <LinksSection />
+      </div>
     </AppContent>
   </div>
 </template>

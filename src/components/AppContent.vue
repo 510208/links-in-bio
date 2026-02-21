@@ -1,5 +1,5 @@
 <template>
-  <div class="relative z-10 w-screen max-w-[1000px] min-w-[400px]">
+  <div class="relative z-10 w-screen max-w-250 min-w-100">
     <slot />
   </div>
 </template>

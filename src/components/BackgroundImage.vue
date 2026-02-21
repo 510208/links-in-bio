@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute top-0 left-0 -z-2 h-[300px] w-screen opacity-40">
+  <div class="absolute top-0 left-0 -z-2 h-75 w-screen opacity-40">
     <img
       :src="bgImage"
       alt="Cover Image"

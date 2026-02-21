@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import FeaturedLink from "./FeaturedLink.vue";
+import FeaturedLink from "@/components/ui/linkButton/FeaturedLink.vue";
 
 import { Globe, Newspaper } from "lucide-vue-next";
 

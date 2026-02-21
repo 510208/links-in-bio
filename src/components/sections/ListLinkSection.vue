@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import LinkButton from "./LinkButton.vue";
+import LinkButton from "@/components/ui/linkButton/LinkButton.vue";
 import config from "@shConfig";
 
 import { DiscordIcon } from "vue3-simple-icons";

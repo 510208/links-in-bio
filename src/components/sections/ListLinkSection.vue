@@ -4,15 +4,17 @@
     <!-- 第一行：兩個Discord按鈕 -->
     <div class="flex flex-col justify-between gap-4 md:flex-row">
       <LinkButton
-        href="https://discord.gg/samhacker"
+        href="#"
         :icon="DiscordIcon"
-        label="Discord (Main)"
+        label="@samhacker (Main)"
+        target="_self"
         icon-class="text-[#5865F2]"
       />
       <LinkButton
-        href="https://discord.gg/samhacker-alt"
+        href="#"
         :icon="DiscordIcon"
-        label="Discord (Alt)"
+        label="@samhacker_test (Alt)"
+        target="_self"
         icon-class="text-[#5865F2]"
       />
     </div>

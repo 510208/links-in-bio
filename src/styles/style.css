@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-front-050: #f9f2ef;
+  --color-front-100: #f2e5de;
+  --color-front-200: #ead6cb;
+  --color-front-300: #e2c6b6;
+  --color-front-400: #c99477;
+  --color-front-500: #b56c44;
+  --color-front-600: #8b5334;
+  --color-front-700: #643b25;
+  --color-front-800: #382115;
+  --color-front-900: #25160e;
+  --color-front-950: #170e09;
+}
+
+body {
+  @apply bg-linear-to-b from-stone-900 to-stone-950 bg-cover bg-fixed;
+}

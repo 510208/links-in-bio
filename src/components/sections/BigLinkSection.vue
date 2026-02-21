@@ -1,6 +1,6 @@
 <template>
   <!-- 大連結區域 -->
-  <div class="grid w-full max-w-[1000px] min-w-[400px] grid-cols-2 gap-2.5">
+  <div class="grid w-full grid-cols-2 gap-4">
     <FeaturedLink
       :href="link.href"
       :icon="link.icon"

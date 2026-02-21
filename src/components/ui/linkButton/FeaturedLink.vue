@@ -3,11 +3,11 @@
     :href="href"
     target="_blank"
     rel="noopener noreferrer"
-    class="group relative flex h-[194px] flex-col items-start justify-end overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-[#180d07] p-3.5 transition-transform hover:scale-[1.02]"
+    class="group relative flex h-50 flex-col items-start justify-end overflow-hidden rounded-lg border border-stone-700 bg-gradient-to-b from-stone-800 to-front-950 p-3.5 transition-transform hover:scale-[1.02]"
   >
     <!-- 頁首：左側圖標和右側箭頭 -->
     <div
-      class="absolute top-6 left-3.5 flex flex-grow items-center justify-between"
+      class="absolute top-6 right-3.5 left-3.5 flex items-center justify-between"
     >
       <component :is="icon" class="size-5 text-stone-200" />
       <ArrowRight
@@ -28,7 +28,7 @@
     <!-- 背景圖片 -->
     <div
       v-if="backgroundImage"
-      class="absolute top-[-1px] right-0 h-[195px] w-[130px] opacity-40 mix-blend-lighten"
+      class="absolute top-[-1px] right-0 -z-0 h-full w-auto opacity-60 mix-blend-lighten transition-all duration-300 group-hover:opacity-100"
     >
       <img
         :src="backgroundImage"

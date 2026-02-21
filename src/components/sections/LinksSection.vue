@@ -7,6 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import BigLinkSection from "./BigLinkSection.vue";
-import ListLinkSection from "./ListLinkSection.vue";
+import BigLinkSection from "@/components/sections/BigLinkSection.vue";
+import ListLinkSection from "@/components/sections/ListLinkSection.vue";
 </script>

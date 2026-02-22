@@ -13,6 +13,7 @@ const currentYear = new Date().getFullYear();
 // 將年份顯示在Footer中
 import { VueLenis, useLenis } from "lenis/vue"; // Also available as global imports, no need to import them manually
 import { watch } from "vue";
+import Header from "./components/sections/Header.vue";
 
 const lenisOptions = {
   // lenis options (optional)
@@ -35,6 +36,8 @@ watch(
 
 <template>
   <VueLenis root :options="lenisOptions" />
+
+  <Header />
 
   <main class="flex w-full flex-col items-center">
     <BackgroundImage />

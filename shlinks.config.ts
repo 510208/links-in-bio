@@ -10,6 +10,10 @@ import {
   FigmaIcon,
   SteamIcon,
   RedditIcon,
+  AstroIcon,
+  PyPiIcon,
+  GravatarIcon,
+  WordPressIcon,
 } from "vue3-simple-icons";
 
 import designImage1 from "@/assets/links/mega-link_bg_1.png";
@@ -21,14 +25,14 @@ const config: Config = {
     big: [
       {
         label: "個人網站",
-        href: "https://510208.github.io",
+        href: "https://samhacker.xyz",
         title: "Introduction",
         icon: Globe,
         bgImage: designImage1,
       },
       {
         label: "部落格",
-        href: "https://samhacker.xyz",
+        href: "https://blog.samhacker.xyz",
         title: "Blog",
         icon: Newspaper,
         bgImage: designImage2,
@@ -79,6 +83,26 @@ const config: Config = {
         label: "Reddit",
         icon: RedditIcon,
         href: "https://www.reddit.com/user/DiligentCarpenter421/",
+      },
+      {
+        label: "Astro",
+        icon: AstroIcon,
+        href: "https://astro.build/themes/author/2712",
+      },
+      {
+        label: "PyPI",
+        icon: PyPiIcon,
+        href: "https://pypi.org/user/510208/",
+      },
+      {
+        label: "Gravatar",
+        icon: GravatarIcon,
+        href: "https://gravatar.com/samhacker0616",
+      },
+      {
+        label: "WordPress",
+        icon: WordPressIcon,
+        href: "https://profiles.wordpress.org/sam510208/",
       },
     ],
   },

@@ -29,7 +29,7 @@
 
       <!-- 右按鈕 -->
       <a
-        href="https://510208.github.io"
+        href="https://github.com/510208/links-in-bio"
         class="group flex flex-row-reverse items-center gap-4 md:w-10"
       >
         <Button

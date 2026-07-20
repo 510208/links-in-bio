@@ -1,14 +1,14 @@
 <template>
   <!-- 頁首 -->
   <div class="fixed top-8 z-20 flex w-full justify-center px-8">
-    <div class="flex w-full max-w-250 justify-between">
+    <header class="flex w-full max-w-250 justify-between px-0 md:px-4">
       <!-- 左按鈕 -->
       <a
         href="https://510208.github.io"
-        class="group flex items-center gap-4 md:w-10"
+        class="group flex cursor-pointer items-center gap-4"
       >
         <Button
-          class="rounded-full bg-linear-to-b from-stone-700/60 to-stone-900"
+          class="cursor-pointer rounded-full bg-linear-to-b from-stone-700/60 to-stone-900"
           size="icon-lg"
           variant="outline"
         >
@@ -19,21 +19,13 @@
         </span>
       </a>
 
-      <div class="flex items-center">
-        <h2
-          class="hidden text-center text-2xl font-extralight tracking-wide text-stone-300 uppercase md:block"
-        >
-          SamHacker
-        </h2>
-      </div>
-
       <!-- 右按鈕 -->
       <a
         href="https://github.com/510208/links-in-bio"
-        class="group flex flex-row-reverse items-center gap-4 md:w-10"
+        class="group flex cursor-pointer flex-row-reverse items-center gap-4"
       >
         <Button
-          class="rounded-full bg-linear-to-b from-stone-700/60 to-stone-900"
+          class="cursor-pointer rounded-full bg-linear-to-b from-stone-700/60 to-stone-900"
           size="icon-lg"
           variant="outline"
         >
@@ -43,7 +35,7 @@
           Source
         </span>
       </a>
-    </div>
+    </header>
   </div>
 </template>
 

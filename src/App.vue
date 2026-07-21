@@ -17,6 +17,7 @@ import Header from "./components/sections/Header.vue";
 
 const lenisOptions = {
   // lenis options (optional)
+
 };
 
 const lenis = useLenis((lenis) => {
